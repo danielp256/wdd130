@@ -79,3 +79,8 @@ article {
     background-color: var(--accent2-color);
     margin: 0;
 }
+
+.socialmedia a img {
+    width: 100px;
+    height: auto;
+}
