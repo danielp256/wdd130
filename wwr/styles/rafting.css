@@ -1,8 +1,6 @@
 :root {
     --primary-color: #055a05;
     /* forest green */
-    --secondary-color: #f4a261;
-    /* warm sand */
     --accent1-color: #264653;
     /* dark slate blue */
     --accent2-color: #e9c46a;
@@ -78,6 +76,6 @@ article {
     bottom: 0px;
     width: 100%;
     position: absolute;
-    background-color: var(--secondary-color);
+    background-color: var(--accent2-color);
     margin: 0;
 }
