@@ -103,9 +103,14 @@ figure img {
     height: 100px;
 }
 
-figure {
-    display: flex;
-    justify-content: space-around;
+.fig-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: start;
+}
+
+figcaption {
+    text-align: center;
 }
 
 .containerhistory {
