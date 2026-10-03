@@ -34,21 +34,23 @@
                         <label for="phone">Phone Number:</label>
                         <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
                     </div>
-                    <table class="reasons">
-                        <tr>
-                            <th rowspan="3">Message Purpose</th>
-                            <td><input type="checkbox" id="newsletter" name="newsletter">general
-                                Inquiry</td>
-                        </tr>
-                        <tr>
-                            <td><input type="checkbox" id="newsletter" name="newsletter">Reservation
-                                Question</td>
-                        </tr>
-                        <tr>
-                            <td><input type="checkbox" id="newsletter" name="newsletter">Website
-                                Suggestion</td>
-                        </tr>
-                    </table>
+
+                    <div class="reasons">
+                        <label for="purpose">Mesage Purpose</label>
+                        <div class="options">
+                            <input type="radio" id="option1" name="mygroup" value="option1">
+                            <label for="option1">General Inquiry</label>
+                            <br>
+
+                            <input type="radio" id="option2" name="mygroup" value="option2">
+                            <label for="option2">Reservation Question</label>
+                            <br>
+
+                            <input type="radio" id="option3" name="mygroup" value="option3">
+                            <label for="option3">Website Suggestion</label>
+                            <br>
+                        </div>
+                    </div>
                     <div class="text-part-form">
                         <div class="message-box">
                             <label for="message">Message:</label>
